@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-c{
+    border: 1px solid #ccc;
+    width: 80%;
+    margin: auto;
+}
+/* first comenter */
+
+.title {
+    font-size: 2.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.container-c-primary{
+    border: 1px solid #ccc;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.container-img-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+
+}
+
+.container-img{
+    border: 1px solid blue;
+    width: 4rem;
+    height: 4rem;
+}
+
+.container-name{
+    font-size: 1.2rem;
+}
+
+.coment-container{
+    border: 1px solid green;
+    width: 96%;
+    margin: auto;
+}
+
+.coment-container p{
+    width: 100%;
+    padding: 10px;
+}
+
+/* create comenter */
+
+.container-create-comenter{
+    position: relative;
+    width: 70%;
+    margin: 15px auto;
+    padding: 10px;
+}
+
+.container-create-comenter textarea {
+    border: 1px solid #434343;
+    width: 75%;
+    height: 4rem;
+    padding: 10px;
+    outline: none;
+}
+
+.container-create-comenter button {
+    position: absolute;
+    top: 20px;
+    padding: 10px;
+    margin-left: 10px;
+}
+/* error */
+
+.error{
+    color: red;
+    display: none;
+}
+/* new comenter */
+
+.comenter {
+    border: 1px solid #ccc;
+    margin: 15px auto;
+    padding: 10px;
+    width: 65%;
+}
+
+.container-new-comenter-img{
+    border: 1px solid red;
+    width: 3rem;
+    height: 3rem;
+}
+
+.container-new-comenter-name{
+    font-size: .8rem;
+}
+
+.new-comenter{
+    padding: 10px;
+}
+
+/* responisve */
+
+
+
+@media (max-width: 500px){
+    body{
+        font-size: 10px;
+    }
+    .container-img{
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+
+    .container-name{
+        font-size: .7rem;
+    }
+
+    .container-new-comenter-img{
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+
+    .container-new-comenter-name{
+        font-size: .5rem;
+    }
+
+    
+
+    .container-create-comenter button {
+        position: absolute;
+        top: 20px;
+        padding: 5px;
+        margin-left: 10px;
+        font-size: 10px;
+    }
+}

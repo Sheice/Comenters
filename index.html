@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/index.css">
+    <title>Comentarios</title>
+</head>
+<body>
+
+    <main class="main-c">
+        <!-- first comenter -->
+        <h1 class="title">Comentarios</h1>
+        <div class="container-c-primary">
+            
+                <div class="container-img-name">
+                    <div class="container-img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="container-name">
+                        <h3 class="name-c">Anonimus</h3>
+                    </div>
+                </div>
+                <div class="coment-container">
+                    <p>F en el chat por Maradona</p>
+                </div>
+        </div>
+        <!-- create comenter -->
+        <div class="container-create-comenter">
+            <textarea name="new comenter" id="textarea" cols="30" rows="10" placeholder="Deje un comentario..."></textarea>
+            
+            <button type="button" id="btn">Enviar</button>
+            <div class="error">El comentario no puede estar vacío</div>
+        </div>
+        <!-- new comenter -->
+        <div class="start-new-comenter" id="start-new-comenter">
+            
+        </div>
+    </main>
+    
+    <template id="template-new-comenter">
+        <div class="comenter">
+            <div class="container-img-name">
+                <div class="container-new-comenter-img">
+                    <img src="" alt="">
+                </div>
+                <div class="container-new-comenter-name">
+                    <h3 class="name-c">Anonimus</h3>
+                </div>
+            </div>
+            <div class="new-comenter">
+                <p></p>
+            </div>
+        </div>
+    </template>
+    
+    <script src="/js/index.js"></script>
+</body>
+</html>
